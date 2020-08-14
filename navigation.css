@@ -1,0 +1,173 @@
+/*header area start*/
+
+.div1{
+    height: 30px;
+    
+    background-color: rgb(9, 117, 14);
+    border-top: solid rgb(225, 65, 118) 3px;
+border-bottom: yellow solid 4px;
+border-left: peru solid 4px;
+border-right: solid 4px peru;
+    border-radius: 4px;
+}
+.t3{
+   color: rgb(134, 240, 13);
+   font-size: large;
+   font-style: bold;
+}
+.div2{
+    position: sticky;
+    top: 0px;
+}
+  
+
+
+ .div2 ul{
+    margin: 0px;
+    padding: 0px;
+background: royalblue;
+overflow: hidden;
+border-bottom: solid green 5px;
+border-radius: 4px;
+border-top: green solid 5px;
+border-left: solid red 4px;
+border-right: solid red 4px;
+}
+.div2 ul li{
+  
+    float: left;
+   
+    list-style-type: none;
+
+}
+.div2 ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+padding: 10px 12px;
+display: inline-block;
+
+}
+
+.div2 ul li a:hover{
+    color: darkred;
+    background: yellowgreen;}
+
+.dropdown-content a{
+    display:block;
+    color: darkred;
+    overflow: hidden;
+}
+
+.dropdown-content{
+    
+    background: #2DEFEF;
+    box-shadow: 2px 2px   black;
+display: none;
+position: absolute;
+
+}
+.dropdown-content a:hover{
+    background: red;
+    color: yellow;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/*header area start*/
+
+
+/*body area start*/
+
+
+body{
+    background-image: url("wdev.jpg");
+background-repeat: repeat;
+padding: 1px 0px;
+
+}
+img {
+    float: left;
+    width: 30%;
+    display: block;
+}
+
+.t6{
+    background: linear-gradient(#A319F3,#1A4545);
+    padding: 5px;
+    color:snow;
+    margin-top: 5%;
+    float: right;
+    margin-left:20%;
+    font-size: 20px;
+    border:solid 1px white;
+    border-radius: 5px;
+}
+
+.t7{
+color: #3229E9;
+font-size: 25px;
+background:linear-gradient(#18EE69, #35EAEA);
+
+padding: 15px;
+margin-top: 1%;
+float: right;
+    margin-left:40%;
+    border:solid 1px white;
+    border-radius: 5px;
+    text-shadow: 1px 1px black;
+}
+.t1{
+    color: aqua;
+     background: linear-gradient( red,limegreen);
+    padding: 5px;
+    font-size: 20px;
+    border:solid 1px white;
+ 
+    margin-left: 28%;border-radius: 5px;
+}
+.t2{
+     background: linear-gradient(#738F4C, #E66E16);
+    padding: 5px;
+    color:snow;
+    font-size: 20px;
+    border:solid 1px white;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 28%;
+}
+.t4{
+     background: linear-gradient(limegreen, black);
+    padding: 5px;
+    color:snow;
+    margin-top: 2%;
+    margin-left: 28%;
+    font-size: 20px;
+    border:solid 1px white;
+    border-radius: 5px;
+}
+.t5{
+     background: linear-gradient(limegreen,#4941F4);
+    padding: 5px;
+    color:snow;
+    margin-top: 3%;
+    float: right;
+    font-size: 20px;
+    border:solid 1px white;
+    border-radius: 5px;
+}
+.t8{
+    background: linear-gradient(#EA7A36, #0B84D8);
+    padding: 5px;
+    color:#B0F705;
+    margin-top: 3%;
+    float: right;
+    font-size: 20px;
+    border:solid 1px white;
+    border-radius: 5px;
+}
+.last-part ul li {
+   list-style: none;
+}

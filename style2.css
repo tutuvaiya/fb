@@ -1,0 +1,92 @@
+
+
+body{
+    background: url("wdes.jpg");
+    padding: 0px 0px;
+}
+img{
+    width: 50%;
+float: right;
+padding: 2px;
+}
+.name{
+color: #dceb55;
+background: linear-gradient( rgb(238, 200, 200), black );
+
+font-size: 25px;
+font-weight: 600px;
+padding: 10px;
+border: solid 2px #c7c97c;
+    border-radius: 5px;
+    text-shadow: 7px 6px 3px rgb(166, 161, 231);
+   
+}
+.email{
+    color: #04f74d;
+    background: linear-gradient(red, black);
+    
+    font-size: large;
+    font-weight: 600px;
+    padding: 5px;
+    border: solid 2px #32330a;
+    border-radius: 5px;
+}
+
+.phone{
+    color: #04f74d;
+    
+    background: linear-gradient(rgb(236, 91, 91), blue);
+    font-size: large;
+    font-weight: 600px;
+    padding: 5px;
+    border: solid 2px #32330a;
+    border-radius: 5px;
+}
+.study{
+    color: #04f74d;
+    background: linear-gradient(#737373, #e78989);
+    
+    font-size: large;
+    font-weight: 600px;
+    padding: 5px;
+    border: solid 2px #32330a;
+    border-radius: 5px;
+
+}
+.webdes{
+    color: #04f74d;
+    background: linear-gradient(#ee8787, #32330a);
+    
+    font-size: large;
+    font-weight: 600px;
+    padding: 5px;
+    border: solid 2px #32330a;
+    border-radius: 5px;
+}
+.webdev{
+    color: #04f74d;
+    background: linear-gradient(#107897, #444444);
+    
+    font-size: large;
+    font-weight: 600px;
+    padding: 5px;
+    border: solid 2px #32330a;
+    border-radius: 5px;
+}
+.bang{
+    color: rgb(242, 245, 59);
+    background: linear-gradient(red, green);
+    
+    font-size: large;
+    font-weight: 600px;
+    padding: 5px;
+    border: solid 2px #32330a;
+    border-radius: 5px;
+}
+
+ul li{
+    list-style: none;
+
+    margin:10px 0px;
+    overflow: hidden;
+}

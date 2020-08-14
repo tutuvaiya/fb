@@ -1,0 +1,274 @@
+
+.header{
+    background: #3b5998;
+    overflow: hidden;
+}
+.login-area{
+    color:white;
+    margin-right: 20px;
+}
+.logo-area img{
+    width:35%;
+        margin-left: 30px;
+}
+ul li{
+    list-style: none;
+    float: left;
+    padding: 0px 5px;
+}
+label{
+    
+}
+.login input[type="submit"]{
+    background-color: #4267B2;
+    
+    border: solid  px #29487D;
+    margin-top: 0px;
+    color:#fff;
+    padding: 3px 8px;
+    font-weight: 600;
+    
+}
+
+.login input[type="submit"]:hover{
+    cursor: pointer;
+}
+.login-area a{
+ text-decoration: none;
+    color:#9CB4Da;
+}
+.login-area a:hover{
+    text-decoration: underline;
+    
+}
+
+.login-area label{
+    font-size:17px;
+    
+}
+.login-area input[type="text"],
+input[type="password"]{
+    border: 1px solid #000;
+    font-size:14px;
+    font-weight: 300px;
+    padding: 0px 3px;
+    
+}
+.container{
+    padding: 20px 50px;
+    overflow: hidden;
+    background: linear-gradient(#fff , #bdc1da);
+}
+/* end header section */
+
+/* start sign up section. */
+
+.signup-area{
+    
+}
+
+.signup-area ::after{
+    content: '';
+    clear: both;
+    display: block;
+    
+}
+/*Left area start*/
+
+
+.left-area{
+width:55%;
+float: left;
+
+}
+
+
+
+
+.left-area p{
+    font-size: 20px;
+    color: #29487D;
+    font-weight: 600;
+    width: 90%;
+}
+.left-area img{
+    width: 95%;
+}
+
+
+
+/*Right area start*/
+
+.right-area{
+    width: 45%;
+    float: left;
+    }
+.right-area h2{
+    font-size: 33px;
+    color:#135;
+    margin: 0px;
+}
+.right-area h4{
+    font-size: 19px;
+    color:#1D2129;
+    margin: 0px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.right-area input[type="text"]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bdc1da;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 5px 0px;
+
+}
+.right-area input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bdc1da;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 5px 0px;
+}
+.full-name{
+overflow: hidden;
+
+}
+
+.first-name{
+width: 48%;
+float: left;
+margin-right: 4%;
+}
+
+.sure-name{
+    width: 48%;
+float: left;
+
+}
+
+/* birthday area start*/
+.birthday{
+overflow: hidden;
+}
+.birthday h4{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.birth-date{
+overflow: hidden;
+margin-right: 10px;
+float: left;
+}
+
+.birth-date select{
+border: 1px solid #ccc;
+padding: 2px;
+float: left;
+
+}
+.birth-link a:hover{
+    text-decoration: underline;
+    
+}
+.birth-link a{
+    font-size: 13px;
+    display: block;
+    line-height: 1.1;
+    text-decoration: none;
+    color: #365899;
+}
+
+/*gender area*/ 
+
+.gender label{
+    font-size:20px;
+    font-weight: 600px;
+    color: #1D2129;
+    margin: 10px 0px;
+}
+/* text box area start*/
+.text-box{
+margin-bottom: 20px;
+}
+.text-box p{
+font-size: 13px;
+color: #212;
+
+}
+.text-box a{
+text-decoration: none;
+color: #365899;
+}
+.text-box a:hover{
+    text-decoration: underline;
+}
+.btn input{
+background: linear-gradient(#67ae55, #57a845);
+box-shadow: inset 0px 1px 1px #a4e3a4;
+border-color: #1b5a22 #1b5a22 #2c5115;
+border-width: 1px;
+border-style: solid;
+padding: 7px 40px;
+color: #fff;
+border-radius: 3px;
+font-size: 20px;
+font-weight: 500;
+transition: 0.5s ;
+}
+.btn input:hover{
+    background: linear-gradient(#57a845, #67ae55);
+    cursor:pointer;
+}
+.btn{
+    margin-bottom: 20px;
+}
+.business a{
+    text-decoration: none;
+}
+.business a:hover{
+    text-decoration: underline;
+    color: #365899;
+}
+.business{
+    font-weight: 600px;
+    color:#664;
+}
+
+
+
+/* start footer area*/
+.footer-area{
+padding: 30px 40px;
+}
+.footer-area ul 
+{
+margin: 0px;
+padding: 0px;
+font-size: 13px;
+}
+.footer-area ul li a:hover{
+text-decoration: underline;
+}
+
+.footer-area ul li a{
+   text-decoration: none;
+color:#365899;
+
+}
+.bottom{
+    font-size: 13px;
+    color: #737373;
+    margin-left: 5px;
+    
+}
+.top ul li .active a{
+    color: #737373;
+}
+.footer-area .top ul li:last-child a{
+    border: 1px solid #999;
+    padding: 1px 3px;
+} 
